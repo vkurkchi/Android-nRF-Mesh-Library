@@ -454,6 +454,22 @@ public class ApplicationMessageOpCodes {
     public static final int GENERIC_MANUFACTURER_PROPERTY_STATUS = 0x46;
 
     /**
+     * Opcode for the "Generic User Properties Get" message
+     */
+    public static final int GENERIC_USER_PROPERTIES_GET = 0x822E;
+
+
+    /**
+     * Opcode for the "Generic User Properties Status" message
+     */
+    public static final int GENERIC_USER_PROPERTIES_STATUS = 0x4B;
+
+    /**
+     * Opcode for the "Generic User Property Get" message
+     */
+    public static final int GENERIC_USER_PROPERTY_GET = 0x822F;
+
+    /**
      * Opcode for the "Generic User Property Status" message
      */
     public static final int GENERIC_USER_PROPERTY_STATUS = 0x4E;
